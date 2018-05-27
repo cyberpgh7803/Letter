@@ -1,0 +1,15 @@
+
+public class Letter {
+
+	public static void main(String[] args) {
+		
+		System.out.println("+-------------------------------------------------------+");
+		for (int i=0; i < 3; i++) {
+			System.out.println("|" + "      \t\t\t\t\t\t" + "####" + "\t" + "|");
+		}
+		System.out.printf("|" + "\t\t" + "John Smith" + "\t\t\t\t" + "|\n" + "|" + "\t\t" + "123 Cyber Way" + "\t\t\t\t" + "|\n" + "|" + "\t\t" + "Pittsburgh, PA 15229" + "\t\t\t" + "|\n");
+		System.out.println("+-------------------------------------------------------+");
+
+	}
+
+}
