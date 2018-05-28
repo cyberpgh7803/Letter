@@ -1,0 +1,20 @@
+
+public class BlankLine {
+
+	public void start() {
+		String bar = "|";
+		String blank = " ";
+		
+		int loop2 = 0;
+		do {
+			System.out.print(bar);
+			for (int i=0; i < 80; i++) {
+				System.out.print(blank);
+			}
+			System.out.println(bar);
+			loop2++;
+		}
+		while(loop2 != 4);
+		
+	}
+}
