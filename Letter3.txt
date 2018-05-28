@@ -1,0 +1,28 @@
+
+public class Letter3 {
+
+	public static void main(String[] args) {
+
+		TopBottom tb = new TopBottom();
+			tb.start();
+		
+		Stamp stamp = new Stamp();
+		stamp.start();
+		
+		BlankLine blank = new BlankLine();
+		blank.start();
+		
+		Name name = new Name();
+		name.start();
+		
+		StreetAddress street = new StreetAddress();
+		street.start();
+		
+		CityState city = new CityState();
+		city.start();
+		
+		tb.start();
+			
+	}
+
+}
